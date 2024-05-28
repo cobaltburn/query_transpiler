@@ -1,0 +1,9 @@
+[package]
+name = "query_transpiler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+serde = { version = "1.0.202", features = ["derive"] }
+sqlparser = "0.46.0"
